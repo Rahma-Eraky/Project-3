@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Css/all.css">
+  <link rel="stylesheet" href="Css/style.css">
+
+  <title>LUNARA</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <img src="Images\Logo.png" alt="Logo" width="50" height="50">
+        <a class="navbar-brand logo-text" href="#">LUNARA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">New In</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Collection
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">DRESSES</a></li>
+                <li><a class="dropdown-item" href="#">TOPS</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">BOTTOMS</a></li>
+                <li><a class="dropdown-item" href="#">BAGS & SHOES</a></li>
+                <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">SALE</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search outfits..." aria-label="Search">
+            <button class="btn btn-brand me-2" type="submit">Search</button>
+            <button class="btn btn-outline-brand" type="button">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Home -->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/pexels-pnw-prod-9218404.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="...">
+          <div class="carousel-caption w-md-75 border border-light rounded w-50 mx-auto bg-dark bg-opacity-50 mb-4">
+            <h5>NEW SEASON COLLECTION</h5>
+            <p>Discover soft tones, light fabrics, and outfits made to glow with you.</p>
+            <button type="button" class="btn btn-outline-light">Shop New In</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/pexels-ab_h_i-s_h_ek_09-283673767-34622178.jpg" class="d-block w-100 vh-100 object-fit-cover"
+            alt="...">
+          <div class="carousel-caption w-md-75 w-50 mx-auto border border-light rounded bg-dark bg-opacity-50 mb-4">
+            <h5>ELEGANT DRESSES</h5>
+            <p>From dinner dates to special nights, find the dress that fits your moment.</p>
+            <button type="button" class="btn btn-outline-light">Explore Dresses</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/pexels-polina-tankilevitch-6988546.jpg" class="d-block w-100 vh-100 object-fit-cover"
+            alt="...">
+          <div class="carousel-caption w-md-75 w-50 mx-auto border border-light rounded bg-dark bg-opacity-50 mb-4">
+            <h5>EVERYDAY ESSENTIALS</h5>
+            <p>Simple, comfy pieces you can wear on repeat – and still look chic.</p>
+            <button type="button" class="btn btn-outline-light">Shop Essentials</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/pexels-harper-sunday-2986445.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="...">
+          <div class="carousel-caption w-md-75 w-50 mx-auto border border-light rounded bg-dark bg-opacity-50 mb-4">
+            <h5>ACCESSORIES THAT COMPLETE YOU</h5>
+            <p>Finish your look with bags, jewelry, and tiny details that make a big difference.</p>
+            <button type="button" class="btn btn-outline-light">View Accessories</button>
+          </div>
+        </div>
+      </div> 
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+
+  <!-- Welcome Section -->
+  <section>
+    <div class="container py-5">
+      <h2 class="fw-bold mb-3 fs-2">Welcome</h2>
+
+      <p class="lead mb-4">
+        Welcome to LUNARA – Step into a world of soft tones, timeless pieces,
+        and effortless modest fashion. From everyday basics to statement outfits,
+        we design looks that feel as comfortable as they are elegant.
+      </p>
+
+      <a href="#" class="btn btn-brand btn-lg">
+        Discover Our Story
+      </a>
+    </div>
+    <hr>
+    <section class="most-loved-section">
+      <div class="container-fluid">
+        <h2 class="fw-bold py-5 text-center  text-white mb-0">Discover Our Signature Styles </h2>
+      </div>
+    </section>
+  </section>
+
+  <!-- Signature Section-->
+  <section>
+    <div class="accordion pt-2  pb-2" id="accordionExample">
+      <div class="accordion-item border-top-0"">
+        <h2 class=" accordion-header">
+        <button class="accordion-button text-secondary " type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Signature Dresses
+        </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-white border border-top-1">
+            <strong class="fw-normal">Floaty silhouettes, soft fabrics, and elegant cuts designed for your special
+              days. From brunch plans to evening gatherings, our dresses keep you comfortable and effortlessly chic.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Everyday Essentials
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-white border border-top-1">
+            <strong class="fw-normal">Build your capsule wardrobe with breathable blouses, relaxed trousers, and
+              layering pieces in neutral tones. Easy to style, easy to wear, and perfect for everyday plans.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Bags & Accessories
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-white border border-top-1">
+            <strong class="fw-normal">Complete your look with minimalist bags, scarves, and jewelry. Thoughtful
+              details and soft colors that bring harmony to every outfit without stealing the spotlight.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Input Sections -->
+  <section class="style-tools-section ">
+    <div class="p-5">
+      <div class="container">
+        <div class="tool-card mb-4">
+
+          <div class="tool-header p-4 border-bottom">
+            <h2 class="tool-title m-0 fs-3 fw-bold custom-color">Plan Your Outfit</h2>
+            <p class="tool-subtitle mt-1 mb-0 fs-6 text-secondary">
+              Write how you want your next Lunara look to feel – colors, layers, fabrics, and vibe.
+            </p>
+          </div>
+
+          <div class="tool-body py-4 px-5">
+            <label for="planOutfit" class="form-label tool-label">
+              Describe your outfit idea here:
+            </label>
+
+            <textarea id="planOutfit" class="form-control tool-textarea rounded border fs-6  ps-2 pt-1" rows="4"
+              placeholder="Soft neutrals, layered abaya, nude scarf, minimal accessories..."></textarea>
+
+            <div class="text-end mt-3 d-flex align-items-center justify-content-end">
+
+              <button class="btn btn-tool px-3 btn-plan text-white btn-copy" data-bs-toggle="modal"
+                data-bs-target="#msgModal">
+                Copy Style Plan
+              </button>
+
+              <span class="copied-label bg-black text-white px-2 py-1 rounded-pill ms-5  ">Sent!</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal fade" id="msgModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <div class="modal-header border-bottom-0 pb-0">
+              <h5 class="modal-title custom-modal-title">LUNARA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body py-4">
+              <p class="mb-0 fs-5">The message sent successfully</p>
+            </div>
+
+            <div class="modal-footer border-top-0 pt-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="tool-card mb-4">
+
+          <div class="tool-header p-4 border-bottom">
+            <h2 class="tool-title m-0 fs-3 fw-bold custom-color">Wardrobe Notes</h2>
+            <p class="tool-subtitle mt-1 mb-0 fs-6 text-secondary">
+              List the Lunara pieces you already own and how you’d like to restyle or combine them.
+            </p>
+          </div>
+
+          <div class="tool-body py-4 px-5">
+            <label for="planOutfit" class="form-label tool-label">
+              Write your wardrobe notes:
+            </label>
+
+            <textarea id="planOutfit" class="form-control tool-textarea rounded border fs-6  ps-2 pt-1" rows="4"
+              placeholder="Cream abaya + satin skirt, need a new scarf color to refresh the look..."></textarea>
+
+            <div class="text-end mt-3 d-flex align-items-center justify-content-end">
+
+              <button class="btn btn-tool px-3 btn-plan text-white btn-copy" data-bs-toggle="modal"
+                data-bs-target="#msgModal">
+                Sent Wardrobe Notes
+              </button>
+
+              <span class="copied-label bg-black text-white px-2 py-1 rounded-pill ms-2">Sent!</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal fade" id="msgModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <div class="modal-header border-bottom-0 pb-0">
+              <h5 class="modal-title custom-modal-title">LUNARA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body py-4">
+              <p class="mb-0 fs-5">The message sent successfully</p>
+            </div>
+
+            <div class="modal-footer border-top-0 pt-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+
+        <div class="tool-card mb-4">
+
+          <div class="tool-header p-4 border-bottom">
+            <h2 class="tool-title m-0 fs-3 fw-bold custom-color">Shopping List Draft</h2>
+            <p class="tool-subtitle mt-1 mb-0 fs-6 text-secondary">
+              Create a quick wishlist of styles, colors, and pieces you want to add to your Lunara wardrobe.
+            </p>
+          </div>
+
+          <div class="tool-body py-4 px-5">
+            <label for="planOutfit" class="form-label tool-label">
+              Write your shopping list:
+            </label>
+
+            <textarea id="planOutfit" class="form-control tool-textarea rounded border fs-6  ps-2 pt-1" rows="4"
+              placeholder="Flowy dress in dusty rose, structured blazer, matching hijab in warm beige..."></textarea>
+
+            <div class="text-end mt-3 d-flex align-items-center justify-content-end">
+
+              <button class="btn btn-tool px-3 text-white
+               btn-plan btn-copy" data-bs-toggle="modal" data-bs-target="#msgModal">
+                Sent Shopping List
+              </button>
+
+              <span class="copied-label bg-black text-white px-2 py-1 rounded-pill ms-2">Sent!</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal fade" id="msgModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <div class="modal-header border-bottom-0 pb-0">
+              <h5 class="modal-title custom-modal-title">LUNARA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body py-4">
+              <p class="mb-0 fs-5">The message sent successfully</p>
+            </div>
+
+            <div class="modal-footer border-top-0 pt-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <hr>
+
+  <!-- Image Section -->
+  <div class="container-fluid mb-4"
+    style="background-image: url(Images/pexels-karola-g-4814048.jpg); height: 300px; background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+  </div>
+
+  <!-- Cards Label Section -->
+  <section class="bg-secondary py-4">
+    <div class="container text-center">
+      <h2 class="fw-bold fst-italic text-white mb-0">
+        Popular Picks in our Lunara Store
+      </h2>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section>
+    <div class="container my-5">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="images/pexels-luiz-fernando-stati-1266933108-27085874.jpg" class=" img-fluid rounded-2 mt-2 mx-2"
+              style="height: 300px;" alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                SUMMER DRESS
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Light, flowy floral dress perfect for sunny days and casual outings.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/il_1588xN.6718686939_k5li.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
+              alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                CASUAL SETS
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Two-piece casual sets that are easy to style, comfortable to wear,
+                and ideal for everyday looks.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/Stunning Marilyn Monroe.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
+              alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                EVENING GOWNS
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Elegant gowns with clean cuts and flattering silhouettes
+                for special occasions and night events.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/download.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
+              alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                ABAYAS
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Modern abayas with structured cuts and breathable fabrics
+                for a modest, chic and polished look.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/minimalist-outfit-ideas.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
+              alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                LUNARA ESSENTIALS
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Basic tops and pants in neutral tones that mix and match
+                easily with the rest of your wardrobe.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/I Wear Sweats 5 Days a Week But Am Also Into These 5 Lounge Trends.jpg"
+              class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;" alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                LOUNGEWEAR
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Cozy loungewear designed for relaxed days at home,
+                while still looking tidy and put-together.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/download (1).jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
+              alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                ACCESSORIES
+              </h5>
+              <p class="card-text text-muted mb-4">
+                Statement bags, belts, and scarves that complete your look
+                and add a touch of personality to any outfit.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-lg h-100 bg-light special-cards">
+            <img src="Images/a woman in a floral dress walking down a path.jpg" class="img-fluid rounded-2 mt-2 mx-2"
+              style="height: 300px;" alt="Summer dress">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+                BLOSSOM DRESS
+              </h5>
+              <p class="card-text text-muted mb-4">
+                A soft floral dress with light, flowy fabric—perfect for morning outings, brunch days, and effortless
+                feminine looks.
+              </p>
+              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Image 2 Section -->
+  <div class="container-fluid"
+    style="background-image: url(Images/pexels-michael-burrows-7147454.jpg); height: 300px; background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+  </div>
+
+  <hr>
+
+  <!-- Thanks Label Section -->
+  <section class="bg-secondary py-4">
+    <div class="container text-center">
+      <h2 class="fw-bold fst-italic text-white mb-0">
+        Thanks For Being Part of Lunara
+      </h2>
+    </div>
+  </section>
+
+  <!-- Cards 2 Section -->
+  <section class="d-flex flex-wrap justify-content-center gap-5 my-5 px-3">
+
+    <!-- Card 1 -->
+    <div class="appreciation-card rounded-4 overflow-hidden position-relative"
+      style="width:270px; height:310px; background-image:url('Images/pexels-talalih-7528989.jpg'); background-size:cover; background-position:center;">
+      <div class="d-flex flex-column h-100 p-4 text-white bg-dark bg-opacity-50">
+        <h6 class="fst-italic mb-2">All Thanks And Appreciation</h6>
+        <span class="small opacity-75 mb-4">March 3, 2025</span>
+
+        <div class="mt-auto">
+          <div class="rounded-pill border border-3 border-white overflow-hidden mb-3" style="width:72px; height:92px;">
+            <img src="Images/pexels-talalih-7528989.jpg" class="w-100 h-100 object-fit-cover" alt="">
+          </div>
+
+          <h5 class="mb-0 fw-bold">Eng. Salem Mohamed</h5>
+          <p class="fst-italic opacity-75 mb-0">Fashion Product Designer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="appreciation-card rounded-4 overflow-hidden position-relative"
+      style="width:270px; height:310px; background-image:url('Images/pexels-ketut-subiyanto-5055446.jpg'); background-size:cover; background-position:center;">
+      <div class="d-flex flex-column h-100 p-4 text-white bg-dark bg-opacity-50">
+        <h6 class="fst-italic mb-2">All Thanks And Appreciation</h6>
+        <span class="small opacity-75 mb-4">April 14, 2025</span>
+
+        <div class="mt-auto">
+          <div class="rounded-pill border border-3 border-white overflow-hidden mb-3" style="width:72px; height:92px;">
+            <img src="Images/pexels-ketut-subiyanto-5055446.jpg" class="w-100 h-100 object-fit-cover" alt="">
+          </div>
+
+          <h5 class="mb-0 fw-bold">Eng. Mohamed Ilady</h5>
+          <p class="fst-italic opacity-75 mb-0">Fashion Stylist</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="appreciation-card rounded-4 overflow-hidden position-relative"
+      style="width:270px; height:310px; background-image:url('Images/pexels-italo-melo-881954-2379005.jpg'); background-size:cover; background-position:center;">
+      <div class="d-flex flex-column h-100 p-4 text-white bg-dark bg-opacity-50">
+        <h6 class="fst-italic mb-2">All Thanks And Appreciation</h6>
+        <span class="small opacity-75 mb-4">July 7, 2025</span>
+
+        <div class="mt-auto">
+          <div class="rounded-pill border border-3 border-white overflow-hidden mb-3" style="width:72px; height:92px;">
+            <img src="Images/pexels-italo-melo-881954-2379005.jpg" class="w-100 h-100 object-fit-cover" alt="">
+          </div>
+
+          <h5 class="mb-0 fw-bold">Eng. Amgad Fathy</h5>
+          <p class="fst-italic opacity-75 mb-0">Brand & Visual Merchandising</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Stories Section -->
+  <div class="site-bg bg-light">
+    <section class="py-5 pb-5 mb-5">
+      <div class="container">
+
+        <h2 class="text-center fw-bold mb-5" style="color: #6c7a89;">
+          Style Stories
+        </h2>
+
+        <!-- CARD 1: Text Left - Image Right -->
+        <div class="card shadow-lg border-0 rounded-4 mb-4 style-story-card mt-5">
+          <div class="row g-0 align-items-stretch">
+            <!-- Text -->
+            <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
+              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">New Summer Dress Collection</h3>
+              <p class="fw-semibold mb-1">Mon. May 25th 2025</p>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+
+              <p>
+                Our new summer dress collection is all about movement, light fabrics, and soft pastel
+                tones. Each piece is designed to feel effortless, whether you are heading to a brunch,
+                a beach walk, or a late-night gathering with friends.
+              </p>
+              <p class="mb-4">
+                We focused on breathable materials, flattering cuts, and delicate details like ruffles,
+                tie-straps, and subtle prints, so you can mix and match your look without losing comfort
+                or elegance.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-secondary fw-semibold">View Lookbook</button>
+                <button class="btn btn-outline-secondary fw-semibold">Shop Collection</button>
+                <button class="btn btn-outline-secondary fw-semibold">Read Story</button>
+              </div>
+            </div>
+
+            <!-- Image -->
+            <div class="col-md-5 order-1 order-md-2">
+              <div class="h-100 overflow-hidden rounded-end-4">
+                <img src="Images/pexels-gk-lola-1480181-2851393.jpg" class="w-100 h-100 story-img  slant-right-down"
+                  alt="Summer Dress Collection">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: Image Left - Text Right -->
+        <div class="card shadow-lg border-0 rounded-4 mb-4 style-story-card mt-5">
+          <div class="row g-0 align-items-stretch">
+            <!-- Image -->
+            <div class="col-md-5 order-1 order-md-1">
+              <div class="h-100 overflow-hidden rounded-start-4">
+                <img src="Images/pexels-liza-summer-6347967.jpg" class="w-100 h-100 story-img slant-left-down"
+                  alt="Styling Tips">
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
+              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">Everyday Styling Tips</h3>
+              <p class="fw-semibold mb-1">Thu. June 5th 2025</p>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+
+              <p>
+                Building an everyday outfit doesn’t have to be complicated. Start with simple basics
+                like a plain top and high-waist jeans, then add one statement piece such as a printed
+                blazer, a bold bag, or layered necklaces.
+              </p>
+              <p class="mb-4">
+                In this style story we share easy combinations, color ideas, and small tweaks that turn
+                a normal look into something confident and polished without spending hours in front of
+                the mirror.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-secondary fw-semibold">Read Article</button>
+                <button class="btn btn-outline-secondary fw-semibold">View Outfits</button>
+                <button class="btn btn-outline-secondary fw-semibold">Save Inspiration</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: Text Left - Image Right -->
+        <div class="card shadow-lg border-0 rounded-4 mb-4 style-story-card mt-5">
+          <div class="row g-0 align-items-stretch">
+            <!-- Text -->
+            <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
+              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">Fabric & Quality Story</h3>
+              <p class="fw-semibold mb-1">Sun. July 12th 2025</p>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+
+              <p>
+                Each Lunara piece starts with fabric. We carefully choose textures that drape well,
+                feel soft on the skin, and last through everyday wear. From lightweight cottons to
+                structured crepe, every material is tested for comfort and durability.
+              </p>
+              <p class="mb-4">
+                This feature takes you behind the scenes of how we source our fabrics, work with
+                trusted suppliers, and refine every detail to make sure your favorite items stay in
+                your wardrobe for seasons, not just weeks.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-secondary fw-semibold">Learn More</button>
+                <button class="btn btn-outline-secondary fw-semibold">Our Materials</button>
+                <button class="btn btn-outline-secondary fw-semibold">Care Guide</button>
+              </div>
+            </div>
+
+            <!-- Image -->
+            <div class="col-md-5 order-1 order-md-2">
+              <div class="h-100 overflow-hidden rounded-end-4">
+                <img src="Images/pexels-mibernaa-35009340.jpg" class="w-100 h-100 story-img  slant-right-down"
+                  alt="Fabrics">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: Image Left - Text Right -->
+        <div class="card shadow-lg border-0 rounded-4 mb-4 style-story-card mt-5">
+          <div class="row g-0 align-items-stretch">
+            <!-- Image -->
+            <div class="col-md-5 order-1 order-md-1">
+              <div class="h-100 overflow-hidden rounded-start-4">
+                <img src="images/pexels-alteredsnaps-14741911.jpg" class="w-100 h-100 story-img slant-left-down"
+                  alt="Photoshoot">
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
+              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">Behind The Scenes Photoshoot</h3>
+              <p class="fw-semibold mb-1">Fri. August 20th 2025</p>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+
+              <p>
+                Our campaign shoots are where the collection comes to life. From choosing the location
+                and moodboard to styling the models, every detail is planned to reflect the brand’s
+                personality and the story of the season.
+              </p>
+              <p class="mb-4">
+                Take a look at candid moments, outfit changes, and the creative energy behind the
+                camera, and discover how a simple sketch turns into the final image you see on the
+                website and social media.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-secondary fw-semibold">View Gallery</button>
+                <button class="btn btn-outline-secondary fw-semibold">Watch Reel</button>
+                <button class="btn btn-outline-secondary fw-semibold">Meet The Team</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-5 mb-5 pb-5" style="background-color:#f2f2f2;">
+      <div class="container">
+        <div class="row justify-content-center g-4">
+
+          <div class="col-6 col-md-3 d-flex justify-content-center">
+            <div class="card text-center border rounded-3 social-card shadow w-75">
+              <div class="card-body d-flex flex-column align-items-center justify-content-between">
+                <p class="fw-semibold text-secondary fst-italic mb-3">Subscribe Now</p>
+                <img src="Images/whatsapp.png" alt="WhatsApp" class="mb-3" style="width:60px; height:60px;">
+                <a href="#" class="fw-semibold text-primary">Go To Link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex justify-content-center">
+            <div class="card text-center border rounded-3 social-card shadow w-75">
+              <div class="card-body d-flex flex-column align-items-center justify-content-between">
+                <p class="fw-semibold text-secondary fst-italic mb-3">Subscribe Now</p>
+                <img src="images/instagram.png" alt="Instagram" class="mb-3" style="width:60px; height:60px;">
+                <a href="#" class="fw-semibold text-primary">Go To Link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex justify-content-center">
+            <div class="card text-center border rounded-3 social-card shadow w-75">
+              <div class="card-body d-flex flex-column align-items-center justify-content-between">
+                <p class="fw-semibold text-secondary fst-italic mb-3">Subscribe Now</p>
+                <img src="images/linkedin.png" alt="LinkedIn" class="mb-3" style="width:60px; height:60px;">
+                <a href="#" class="fw-semibold text-primary">Go To Link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 d-flex justify-content-center">
+            <div class="card text-center border rounded-3 social-card shadow w-75">
+              <div class="card-body d-flex flex-column align-items-center justify-content-between">
+                <p class="fw-semibold text-secondary fst-italic mb-3">Subscribe Now</p>
+                <img src="images/twitter (2).png" alt="Twitter" class="mb-3" style="width:60px; height:60px;">
+                <a href="#" class="fw-semibold text-primary">Go To Link</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  </div>
+  </section>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="pt-4" style="background-color:#6c7a89; color:#f5f5f5;">
+    <div class="container">
+
+      <!-- خط فوقي بسيط -->
+      <hr class="border-0" style="border-top:1px solid #768391;">
+
+      <div class="row text-center py-4">
+        <!-- عمود 1 -->
+        <div class="col-md-4 mb-4 mb-md-0 ">
+          <img src="Images/ChatGPT Image Dec 8, 2025, 09_45_51 AM.png" alt="Lunara Logo" style=""
+            class="lunara-logo-crop">
+          <h4 class="fw-semibold fst-italic mt-3 ">
+            Lunara Studio
+          </h4>
+
+          <hr class="mx-auto mt-3 mb-3" style="width:80%; border-top:1px solid #909dad;">
+
+          <p class="mb-1">Tel: +20 000 000 000</p>
+          <p class="mb-1">Email: hello@lunara.com</p>
+          <p class="mb-0">Address: Cairo, Egypt</p>
+        </div>
+
+        <!-- عمود 2 -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <img src="Images/Cart.png" alt="Shopping Icon" class="CartLogo">
+          <h4 class="fw-semibold fst-italic mt-3">
+            Shop & Links
+          </h4>
+
+          <hr class="mx-auto mt-3 mb-3" style="width:80%; border-top:1px solid #909dad;">
+
+          <p class="mb-1"><a href="#collections" class="text-decoration-none text-light">New Arrivals</a></p>
+          <p class="mb-1"><a href="#dresses" class="text-decoration-none text-light">Summer Dresses</a></p>
+          <p class="mb-0"><a href="#contact" class="text-decoration-none text-light">Contact & Support</a></p>
+        </div>
+
+        <!-- عمود 3 -->
+        <div class="col-md-4">
+          <img src="Images/LOGO3.png" alt="Lunara Vision" class="vision">
+          <h4 class="fw-semibold fst-italic mt-3">
+            Our Vision
+          </h4>
+
+          <hr class="mx-auto mt-3 mb-3" style="width:80%; border-top:1px solid #909dad;">
+
+          <p class="mb-1">Effortless Everyday Style</p>
+          <p class="mb-1">Soft Fabrics, Feminine Cuts</p>
+          <p class="mb-0">Pieces You’ll Wear Again</p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="text-center py-3">
+        <span style="color:#ebc6bc; font-weight:600;">
+          © 2025 Lunara. All Rights Reserved.
+        </span>
+        <span class="text-light">
+          Designed by Rahma Eraky.
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Icons Section -->
+  <div class="d-flex flex-column position-fixed top-50 end-0 translate-middle-y me-2 gap-3 social-icons ">
+    <a href="#" class="text-secondary">
+      <i class="fab fa-facebook-square fa-2x "></i>
+    </a>
+    <a href="#" class="text-secondary">
+      <i class="fab fa-twitter-square  fa-2x"></i>
+    </a>
+    <a href="#" class="text-secondary">
+      <i class="fab fa-whatsapp-square  fa-2x"></i>
+    </a>
+    <a href="#" class="text-secondary">
+      <i class="fab fa-instagram-square  fa-2x"></i>
+    </a>
+    <a href="#" class="text-secondary">
+      <i class="fab fa-linkedin  fa-2x"></i>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

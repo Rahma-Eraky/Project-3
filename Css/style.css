@@ -1,0 +1,199 @@
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+:root {
+  --brand-color: #ebc6bc;
+  --brand-Grey: #bfbfbf;
+  --brand-pink: #f4e0da;
+  --brand-color-dark: #d2a9a0;
+  --brand-grey: #f7f4f3;
+  --brand-text: #4b4b4b;
+  --brand-greey: #b8b8b8;
+}
+.navbar .navbar-brand.logo-text {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.15rem;
+  font-weight: 500;
+  color: #ebc6bc;
+}
+.navbar-brand {
+  border-right: 2px solid var(--brand-Grey);
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.btn-brand,
+.btn-outline-brand:hover,
+.btn-plan {
+  background-color: var(--brand-color);
+}
+.navbar-nav .nav-link:focus,
+.btn-brand,
+.btn-outline-brand {
+  border-color: var(--brand-color);
+}
+.btn-outline-brand,
+.navbar-nav .nav-link:hover {
+  color: var(--brand-color);
+}
+.btn-brand {
+  color: #fff;
+  font-weight: 500;
+}
+.btn-brand:hover {
+  background-color: #f0d0c7;
+  color: #fff;
+}
+.btn-outline-brand {
+  font-weight: 500;
+  background-color: transparent;
+}
+.btn-outline-brand:hover {
+  color: #fff;
+}
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+.navbar-nav .nav-link {
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.navbar-nav .nav-link:focus {
+  outline: none;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  border-color: #ebc6bc !important;
+  color: #ebc6bc !important;
+}
+.most-loved-section,
+.tool-header {
+  background-color: var(--brand-pink);
+}
+.most-loved-section {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.accordion,
+.accordion-button.collapsed {
+  --bs-accordion-active-bg: #fef7f5;
+  --bs-accordion-bg: #fef7f5;
+}
+.tool-card {
+  background: linear-gradient(to bottom, #fdf7f5, #ffffff);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
+  border: 1px solid var(--brand-pink);
+}
+.tool-title {
+  color: var(--brand-text);
+}
+.tool-textarea {
+  border: 1px solid var(--brand-pink) !important;
+  font-size: 0.95rem;
+  padding: 0.75rem 0.9rem;
+}
+.tool-textarea:focus {
+  border-color: var(--brand-color-dark);
+}
+.btn-tool {
+  border-radius: 20px;
+}
+.btn-plan:hover {
+  background-color: var(--brand-color-dark);
+}
+.copied-label {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 2px 8px;
+  margin-right: 5px;
+}
+.btn-copy:focus + .copied-label {
+  opacity: 1;
+}
+.special-cards::before,
+.special-cards::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(235, 198, 188, 0.2);
+  opacity: 0;
+  transition: all 0.8s ease;
+  z-index: 1;
+}
+.special-cards::after {
+  left: 0;
+  top: 0;
+}
+.special-cards:hover:before,
+.special-cards:hover:after {
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: 1s;
+}
+.social-icons a i {
+  color: var(--brand-greey);
+}
+.social-icons a i:hover {
+  color: var(--brand-Grey);
+}
+.slant-left-down {
+  clip-path: polygon(0% 0.3%, 75.4% 0%, 100% 100%, 0% 100%);
+  transform-origin: right center;
+}
+.slant-right-down {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transform-origin: left center;
+}
+.thanks-card {
+  transition: 0.7s;
+}
+.thanks-card:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+}
+.story-img {
+  transition: transform 0.7s ease;
+}
+.card:hover .story-img {
+  transform: scale(1.05);
+}
+.lunara-logo-crop,
+.CartLogo,
+.vision {
+  width: 300px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+.CartLogo,
+.vision {
+  width: 90px;
+  height: 50px;
+}
+.appreciation-card {
+  width: 270px;
+  height: 310px;
+  background-size: cover;
+  background-position: center;
+}
+.site-bg section {
+  background: transparent !important;
+  margin-bottom: 0 !important;
+}
+.appreciation-card,
+.social-card {
+  transition: 0.7s;
+}
+.appreciation-card:hover {
+  transition: 0.7s;
+  transform: scale(0.9);
+}
+.social-card:hover {
+  transition: 0.7s;
+  transform: scale(1.05);
+}
