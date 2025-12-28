@@ -18,7 +18,7 @@
   <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <img src="Images\Logo.png" alt="Logo" width="50" height="50">
+        <img src="Images\LOGOO.png" alt="Logo" width="50" height="50">
         <a class="navbar-brand logo-text" href="#">LUNARA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -164,12 +164,12 @@
   <!-- Signature Section-->
   <section>
     <div class="accordion pt-2  pb-2" id="accordionExample">
-      <div class="accordion-item border-top-0"">
+      <div class="accordion-item border-top-0">
         <h2 class=" accordion-header">
-        <button class="accordion-button text-secondary " type="button" data-bs-toggle="collapse"
-          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Signature Dresses
-        </button>
+          <button class="accordion-button collapsed text-black " type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Signature Dresses
+          </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body bg-white border border-top-1">
@@ -180,7 +180,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse"
+          <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Everyday Essentials
           </button>
@@ -194,7 +194,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse"
+          <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             Bags & Accessories
           </button>
@@ -212,167 +212,143 @@
   <hr>
 
   <!-- Input Sections -->
-  <section class="style-tools-section ">
+  <section class="style-tools-section">
     <div class="p-5">
-      <div class="container">
+      <div class="container px-0">
         <div class="tool-card mb-4">
-
           <div class="tool-header p-4 border-bottom">
-            <h2 class="tool-title m-0 fs-3 fw-bold custom-color">Plan Your Outfit</h2>
-            <p class="tool-subtitle mt-1 mb-0 fs-6 text-secondary">
+            <h2 class="tool-title m-0 fs-3 fw-bold text-white">Plan Your Outfit</h2>
+            <p class="tool-subtitle mt-1 mb-0 fs-6 text-light">
               Write how you want your next Lunara look to feel – colors, layers, fabrics, and vibe.
             </p>
           </div>
 
           <div class="tool-body py-4 px-5">
-            <label for="planOutfit" class="form-label tool-label">
+            <label for="planOutfit1" class="form-label tool-label">
               Describe your outfit idea here:
             </label>
 
-            <textarea id="planOutfit" class="form-control tool-textarea rounded border fs-6  ps-2 pt-1" rows="4"
+            <textarea id="planOutfit1" class="form-control tool-textarea rounded border fs-6 ps-2 pt-1" rows="4"
               placeholder="Soft neutrals, layered abaya, nude scarf, minimal accessories..."></textarea>
 
-            <div class="text-end mt-3 d-flex align-items-center justify-content-end">
-
-              <button class="btn btn-tool px-3 btn-plan text-white btn-copy" data-bs-toggle="modal"
-                data-bs-target="#msgModal">
+            <div class="d-flex align-items-center gap-3 mt-3">
+              <button class="btn btn-tool px-4 btn-plan text-white btn-copy" data-bs-toggle="modal"
+                data-bs-target="#msgModal1">
                 Copy Style Plan
               </button>
-
-              <span class="copied-label bg-black text-white px-2 py-1 rounded-pill ms-5  ">Sent!</span>
+              <span class="copied-label bg-black text-white px-3 py-1 rounded-pill">Sent!</span>
             </div>
           </div>
         </div>
 
-      </div>
+        <hr class="my-4 mx-5">
 
-      <div class="modal fade" id="msgModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-
-            <div class="modal-header border-bottom-0 pb-0">
-              <h5 class="modal-title custom-modal-title">LUNARA</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="modal-body py-4">
-              <p class="mb-0 fs-5">The message sent successfully</p>
-            </div>
-
-            <div class="modal-footer border-top-0 pt-0">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="container">
         <div class="tool-card mb-4">
-
           <div class="tool-header p-4 border-bottom">
-            <h2 class="tool-title m-0 fs-3 fw-bold custom-color">Wardrobe Notes</h2>
-            <p class="tool-subtitle mt-1 mb-0 fs-6 text-secondary">
+            <h2 class="tool-title m-0 fs-3 fw-bold text-white">Wardrobe Notes</h2>
+            <p class="tool-subtitle mt-1 mb-0 fs-6 text-light">
               List the Lunara pieces you already own and how you’d like to restyle or combine them.
             </p>
           </div>
 
           <div class="tool-body py-4 px-5">
-            <label for="planOutfit" class="form-label tool-label">
+            <label for="wardrobeNotes" class="form-label tool-label">
               Write your wardrobe notes:
             </label>
 
-            <textarea id="planOutfit" class="form-control tool-textarea rounded border fs-6  ps-2 pt-1" rows="4"
+            <textarea id="wardrobeNotes" class="form-control tool-textarea rounded border fs-6 ps-2 pt-1" rows="4"
               placeholder="Cream abaya + satin skirt, need a new scarf color to refresh the look..."></textarea>
 
-            <div class="text-end mt-3 d-flex align-items-center justify-content-end">
-
-              <button class="btn btn-tool px-3 btn-plan text-white btn-copy" data-bs-toggle="modal"
-                data-bs-target="#msgModal">
-                Sent Wardrobe Notes
+            <div class="d-flex align-items-center gap-3 mt-3">
+              <button class="btn btn-tool px-4 btn-plan text-white btn-copy" data-bs-toggle="modal"
+                data-bs-target="#msgModal2">
+                Send Wardrobe Notes
               </button>
-
-              <span class="copied-label bg-black text-white px-2 py-1 rounded-pill ms-2">Sent!</span>
+              <span class="copied-label bg-black text-white px-3 py-1 rounded-pill">Sent!</span>
             </div>
           </div>
         </div>
 
-      </div>
-
-      <div class="modal fade" id="msgModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-
-            <div class="modal-header border-bottom-0 pb-0">
-              <h5 class="modal-title custom-modal-title">LUNARA</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="modal-body py-4">
-              <p class="mb-0 fs-5">The message sent successfully</p>
-            </div>
-
-            <div class="modal-footer border-top-0 pt-0">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="container">
+        <hr class="my-4 mx-5">
 
         <div class="tool-card mb-4">
-
           <div class="tool-header p-4 border-bottom">
-            <h2 class="tool-title m-0 fs-3 fw-bold custom-color">Shopping List Draft</h2>
-            <p class="tool-subtitle mt-1 mb-0 fs-6 text-secondary">
+            <h2 class="tool-title m-0 fs-3 fw-bold text-white">Shopping List Draft</h2>
+            <p class="tool-subtitle mt-1 mb-0 fs-6 text-light">
               Create a quick wishlist of styles, colors, and pieces you want to add to your Lunara wardrobe.
             </p>
           </div>
 
           <div class="tool-body py-4 px-5">
-            <label for="planOutfit" class="form-label tool-label">
+            <label for="shoppingList" class="form-label tool-label">
               Write your shopping list:
             </label>
 
-            <textarea id="planOutfit" class="form-control tool-textarea rounded border fs-6  ps-2 pt-1" rows="4"
+            <textarea id="shoppingList" class="form-control tool-textarea rounded border fs-6 ps-2 pt-1" rows="4"
               placeholder="Flowy dress in dusty rose, structured blazer, matching hijab in warm beige..."></textarea>
 
-            <div class="text-end mt-3 d-flex align-items-center justify-content-end">
-
-              <button class="btn btn-tool px-3 text-white
-               btn-plan btn-copy" data-bs-toggle="modal" data-bs-target="#msgModal">
-                Sent Shopping List
+            <div class="d-flex align-items-center gap-3 mt-3">
+              <button class="btn btn-tool px-4 text-white btn-plan btn-copy" data-bs-toggle="modal"
+                data-bs-target="#msgModal3">
+                Send Shopping List
               </button>
-
-              <span class="copied-label bg-black text-white px-2 py-1 rounded-pill ms-2">Sent!</span>
+              <span class="copied-label bg-black text-white px-3 py-1 rounded-pill">Sent!</span>
             </div>
           </div>
         </div>
-
       </div>
+    </div>
 
-      <div class="modal fade" id="msgModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-
-            <div class="modal-header border-bottom-0 pb-0">
-              <h5 class="modal-title custom-modal-title">LUNARA</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="modal-body py-4">
-              <p class="mb-0 fs-5">The message sent successfully</p>
-            </div>
-
-            <div class="modal-footer border-top-0 pt-0">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
-            </div>
-
+    <div class="modal fade" id="msgModal1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-bottom-0 pb-0">
+            <h5 class="modal-title custom-modal-title">LUNARA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body py-4">
+            <p class="mb-0 fs-5">Style plan copied successfully!</p>
+          </div>
+          <div class="modal-footer border-top-0 pt-0">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="modal fade" id="msgModal2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-bottom-0 pb-0">
+            <h5 class="modal-title custom-modal-title">LUNARA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body py-4">
+            <p class="mb-0 fs-5">Wardrobe notes sent successfully!</p>
+          </div>
+          <div class="modal-footer border-top-0 pt-0">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="msgModal3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-bottom-0 pb-0">
+            <h5 class="modal-title custom-modal-title">LUNARA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body py-4">
+            <p class="mb-0 fs-5">Shopping list sent successfully!</p>
+          </div>
+          <div class="modal-footer border-top-0 pt-0">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <hr>
@@ -383,7 +359,7 @@
   </div>
 
   <!-- Cards Label Section -->
-  <section class="bg-secondary py-4">
+  <section class="bg-black py-4">
     <div class="container text-center">
       <h2 class="fw-bold fst-italic text-white mb-0">
         Popular Picks in our Lunara Store
@@ -400,13 +376,13 @@
             <img src="Images\pexels-luiz-fernando-stati-1266933108-27085874.jpg" class=" img-fluid rounded-2 mt-2 mx-2"
               style="height: 300px;" alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 SUMMER DRESS
               </h5>
               <p class="card-text text-muted mb-4">
                 Light, flowy floral dress perfect for sunny days and casual outings.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -417,14 +393,14 @@
             <img src="Images/il_1588xN.6718686939_k5li.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
               alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 CASUAL SETS
               </h5>
               <p class="card-text text-muted mb-4">
                 Two-piece casual sets that are easy to style, comfortable to wear,
                 and ideal for everyday looks.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -435,14 +411,14 @@
             <img src="Images/Stunning Marilyn Monroe.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
               alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 EVENING GOWNS
               </h5>
               <p class="card-text text-muted mb-4">
                 Elegant gowns with clean cuts and flattering silhouettes
                 for special occasions and night events.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -453,14 +429,14 @@
             <img src="Images/download.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
               alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 ABAYAS
               </h5>
               <p class="card-text text-muted mb-4">
                 Modern abayas with structured cuts and breathable fabrics
                 for a modest, chic and polished look.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -471,14 +447,14 @@
             <img src="Images/minimalist-outfit-ideas.jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
               alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 LUNARA ESSENTIALS
               </h5>
               <p class="card-text text-muted mb-4">
                 Basic tops and pants in neutral tones that mix and match
                 easily with the rest of your wardrobe.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -489,14 +465,14 @@
             <img src="Images/I Wear Sweats 5 Days a Week But Am Also Into These 5 Lounge Trends.jpg"
               class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;" alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 LOUNGEWEAR
               </h5>
               <p class="card-text text-muted mb-4">
                 Cozy loungewear designed for relaxed days at home,
                 while still looking tidy and put-together.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -507,14 +483,14 @@
             <img src="Images/download (1).jpg" class="img-fluid rounded-2 mt-2 mx-2" style="height: 300px;"
               alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 ACCESSORIES
               </h5>
               <p class="card-text text-muted mb-4">
                 Statement bags, belts, and scarves that complete your look
                 and add a touch of personality to any outfit.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -525,14 +501,14 @@
             <img src="Images/a woman in a floral dress walking down a path.jpg" class="img-fluid rounded-2 mt-2 mx-2"
               style="height: 300px;" alt="Summer dress">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase fw-bold" style="color:#ebc6bc;">
+              <h5 class="card-title text-uppercase fw-bold" style="color:#b33276">
                 BLOSSOM DRESS
               </h5>
               <p class="card-text text-muted mb-4">
                 A soft floral dress with light, flowy fabric—perfect for morning outings, brunch days, and effortless
                 feminine looks.
               </p>
-              <button class="btn mt-auto text-white fw-semibold bg-secondary">
+              <button class="btn mt-auto text-white fw-semibold bg-black">
                 SHOP NOW
               </button>
             </div>
@@ -548,7 +524,7 @@
   <hr>
 
   <!-- Thanks Label Section -->
-  <section class="bg-secondary py-4">
+  <section class="bg-black py-4">
     <div class="container text-center">
       <h2 class="fw-bold fst-italic text-white mb-0">
         Thanks For Being Part of Lunara
@@ -621,7 +597,7 @@
     <section class="py-5 pb-5 mb-5">
       <div class="container">
 
-        <h2 class="text-center fw-bold mb-5" style="color: #6c7a89;">
+        <h2 class="text-center fw-bold mb-5 text-black">
           Style Stories
         </h2>
 
@@ -630,9 +606,9 @@
           <div class="row g-0 align-items-stretch">
             <!-- Text -->
             <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
-              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">New Summer Dress Collection</h3>
+              <h3 class="fw-bold mb-2" style="color:#b33276;">New Summer Dress Collection</h3>
               <p class="fw-semibold mb-1">Mon. May 25th 2025</p>
-              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#b33276;"></div>
 
               <p>
                 Our new summer dress collection is all about movement, light fabrics, and soft pastel
@@ -646,9 +622,9 @@
               </p>
 
               <div class="d-flex flex-wrap gap-2">
-                <button class="btn btn-secondary fw-semibold">View Lookbook</button>
-                <button class="btn btn-outline-secondary fw-semibold">Shop Collection</button>
-                <button class="btn btn-outline-secondary fw-semibold">Read Story</button>
+                <button class="btn btn-dark fw-semibold">View Lookbook</button>
+                <button class="btn btn-outline-dark fw-semibold">Shop Collection</button>
+                <button class="btn btn-outline-dark fw-semibold">Read Story</button>
               </div>
             </div>
 
@@ -675,9 +651,9 @@
 
             <!-- Text -->
             <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
-              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">Everyday Styling Tips</h3>
+              <h3 class="fw-bold mb-2" style="color:#b33276;">Everyday Styling Tips</h3>
               <p class="fw-semibold mb-1">Thu. June 5th 2025</p>
-              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#b33276;"></div>
 
               <p>
                 Building an everyday outfit doesn’t have to be complicated. Start with simple basics
@@ -691,9 +667,9 @@
               </p>
 
               <div class="d-flex flex-wrap gap-2">
-                <button class="btn btn-secondary fw-semibold">Read Article</button>
-                <button class="btn btn-outline-secondary fw-semibold">View Outfits</button>
-                <button class="btn btn-outline-secondary fw-semibold">Save Inspiration</button>
+                <button class="btn btn-dark fw-semibold">Read Article</button>
+                <button class="btn btn-outline-dark fw-semibold">View Outfits</button>
+                <button class="btn btn-outline-dark fw-semibold">Save Inspiration</button>
               </div>
             </div>
           </div>
@@ -704,9 +680,9 @@
           <div class="row g-0 align-items-stretch">
             <!-- Text -->
             <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
-              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">Fabric & Quality Story</h3>
+              <h3 class="fw-bold mb-2" style="color:#b33276;">Fabric & Quality Story</h3>
               <p class="fw-semibold mb-1">Sun. July 12th 2025</p>
-              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#b33276;"></div>
 
               <p>
                 Each Lunara piece starts with fabric. We carefully choose textures that drape well,
@@ -720,9 +696,9 @@
               </p>
 
               <div class="d-flex flex-wrap gap-2">
-                <button class="btn btn-secondary fw-semibold">Learn More</button>
-                <button class="btn btn-outline-secondary fw-semibold">Our Materials</button>
-                <button class="btn btn-outline-secondary fw-semibold">Care Guide</button>
+                <button class="btn btn-dark fw-semibold">Learn More</button>
+                <button class="btn btn-outline-dark fw-semibold">Our Materials</button>
+                <button class="btn btn-outline-dark fw-semibold">Care Guide</button>
               </div>
             </div>
 
@@ -749,9 +725,9 @@
 
             <!-- Text -->
             <div class="col-md-7 p-4 p-md-5 order-2 order-md-2">
-              <h3 class="fw-bold mb-2" style="color:#ebc6bc;">Behind The Scenes Photoshoot</h3>
+              <h3 class="fw-bold mb-2" style="color:#b33276;">Behind The Scenes Photoshoot</h3>
               <p class="fw-semibold mb-1">Fri. August 20th 2025</p>
-              <div class="mb-3" style="width:120px; height:4px; background-color:#ebc6bc;"></div>
+              <div class="mb-3" style="width:120px; height:4px; background-color:#b33276;"></div>
 
               <p>
                 Our campaign shoots are where the collection comes to life. From choosing the location
@@ -765,9 +741,9 @@
               </p>
 
               <div class="d-flex flex-wrap gap-2">
-                <button class="btn btn-secondary fw-semibold">View Gallery</button>
-                <button class="btn btn-outline-secondary fw-semibold">Watch Reel</button>
-                <button class="btn btn-outline-secondary fw-semibold">Meet The Team</button>
+                <button class="btn btn-dark fw-semibold">View Gallery</button>
+                <button class="btn btn-outline-dark fw-semibold">Watch Reel</button>
+                <button class="btn btn-outline-dark fw-semibold">Meet The Team</button>
               </div>
             </div>
           </div>
@@ -832,17 +808,14 @@
   </div>
 
   <!-- Footer Section -->
-  <footer class="pt-4" style="background-color:#6c7a89; color:#f5f5f5;">
+  <footer class="pt-4 bg-black" style=" color:#f5f5f5;">
     <div class="container">
 
-      <!-- خط فوقي بسيط -->
       <hr class="border-0" style="border-top:1px solid #768391;">
 
       <div class="row text-center py-4">
-        <!-- عمود 1 -->
         <div class="col-md-4 mb-4 mb-md-0 ">
-          <img src="Images/ChatGPT Image Dec 8, 2025, 09_45_51 AM.png" alt="Lunara Logo" style=""
-            class="lunara-logo-crop">
+          <img src="Images/footer.png" alt="Lunara Logo" style="" class="lunara-logo-crop">
           <h4 class="fw-semibold fst-italic mt-3 ">
             Lunara Studio
           </h4>
@@ -854,9 +827,8 @@
           <p class="mb-0">Address: Cairo, Egypt</p>
         </div>
 
-        <!-- عمود 2 -->
         <div class="col-md-4 mb-4 mb-md-0">
-          <img src="Images/Cart.png" alt="Shopping Icon" class="CartLogo">
+          <img src="Images/footer3.png" alt="Shopping Icon" class="CartLogo">
           <h4 class="fw-semibold fst-italic mt-3">
             Shop & Links
           </h4>
@@ -868,9 +840,8 @@
           <p class="mb-0"><a href="#contact" class="text-decoration-none text-light">Contact & Support</a></p>
         </div>
 
-        <!-- عمود 3 -->
         <div class="col-md-4">
-          <img src="Images/LOGO3.png" alt="Lunara Vision" class="vision">
+          <img src="Images/footer_2.png" alt="Lunara Vision" class="vision">
           <h4 class="fw-semibold fst-italic mt-3">
             Our Vision
           </h4>
@@ -885,7 +856,7 @@
 
       <hr>
       <div class="text-center py-3">
-        <span style="color:#ebc6bc; font-weight:600;">
+        <span style="color:#b33276; font-weight:600;">
           © 2025 Lunara. All Rights Reserved.
         </span>
         <span class="text-light">

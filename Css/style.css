@@ -3,22 +3,16 @@
   box-shadow: none !important;
 }
 :root {
-  --brand-color: #ebc6bc;
-  --brand-Grey: #bfbfbf;
-  --brand-pink: #f4e0da;
-  --brand-color-dark: #d2a9a0;
-  --brand-grey: #f7f4f3;
-  --brand-text: #4b4b4b;
-  --brand-greey: #b8b8b8;
+  --brand-color: #b33276;
 }
 .navbar .navbar-brand.logo-text {
   font-family: "Playfair Display", serif;
   letter-spacing: 0.15rem;
   font-weight: 500;
-  color: #ebc6bc;
+  color: var(--brand-color);
 }
 .navbar-brand {
-  border-right: 2px solid var(--brand-Grey);
+  border-right: 2px solid black;
   padding-right: 20px;
   margin-right: 20px;
 }
@@ -41,7 +35,7 @@
   font-weight: 500;
 }
 .btn-brand:hover {
-  background-color: #f0d0c7;
+  background-color: var(--brand-color);
   color: #fff;
 }
 .btn-outline-brand {
@@ -64,43 +58,38 @@
 }
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
-  border-color: #ebc6bc !important;
-  color: #ebc6bc !important;
+  border-color: var(--brand-color) !important;
+  color: var(--brand-color) !important;
 }
 .most-loved-section,
 .tool-header {
-  background-color: var(--brand-pink);
+  background-color: var(--brand-color);
 }
 .most-loved-section {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 .accordion,
 .accordion-button.collapsed {
-  --bs-accordion-active-bg: #fef7f5;
-  --bs-accordion-bg: #fef7f5;
+  --bs-accordion-active-bg: #b96e96;
+  --bs-accordion-bg: #ffe7f4;
 }
 .tool-card {
-  background: linear-gradient(to bottom, #fdf7f5, #ffffff);
+  background: linear-gradient(to bottom, #f3bfdb, #ffffff);
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
-  border: 1px solid var(--brand-pink);
+  border: 1px solid var(--brand-color);
 }
-.tool-title {
-  color: var(--brand-text);
-}
+
 .tool-textarea {
-  border: 1px solid var(--brand-pink) !important;
+  border: 1px solid var(--brand-color) !important;
   font-size: 0.95rem;
   padding: 0.75rem 0.9rem;
 }
 .tool-textarea:focus {
-  border-color: var(--brand-color-dark);
-}
-.btn-tool {
-  border-radius: 20px;
+  border-color: var(--brand-color);
 }
 .btn-plan:hover {
-  background-color: var(--brand-color-dark);
+  background-color: var(--brand-color);
 }
 .copied-label {
   opacity: 0;
@@ -136,10 +125,10 @@
   transition: 1s;
 }
 .social-icons a i {
-  color: var(--brand-greey);
+  color: black;
 }
 .social-icons a i:hover {
-  color: var(--brand-Grey);
+  color: rgb(65, 65, 65);
 }
 .slant-left-down {
   clip-path: polygon(0% 0.3%, 75.4% 0%, 100% 100%, 0% 100%);
@@ -196,4 +185,9 @@
 .social-card:hover {
   transition: 0.7s;
   transform: scale(1.05);
+}
+
+.vision,
+.CartLogo {
+  width: 150px;
 }
