@@ -79,7 +79,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
   border: 1px solid var(--brand-color);
 }
-
 .tool-textarea {
   border: 1px solid var(--brand-color) !important;
   font-size: 0.95rem;
@@ -186,8 +185,18 @@
   transition: 0.7s;
   transform: scale(1.05);
 }
-
 .vision,
 .CartLogo {
   width: 150px;
+}
+@media (max-width: 767px) {
+  .story-img {
+    object-fit: contain;
+    height: auto;
+  }
+  .slant-right-down,
+  .slant-left-down {
+    clip-path: none !important;
+    border-radius: 1rem 1rem 0 0 !important;
+  }
 }
